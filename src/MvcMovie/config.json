@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "MvcMovie"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-MvcMovie-df364553-565a-4455-950c-5057f67462c7;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
