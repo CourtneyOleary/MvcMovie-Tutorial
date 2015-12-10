@@ -1,0 +1,17 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    // ViewData["Title"] = "About";
+}
+
+<h2>Welcome, friends. Stay a while.</h2>
+
+<ul>
+    @for (int i = 0; i < (int)ViewData["NumTimes"]; i++)
+
+    {
+        <li>@ViewData["Message"]</li>
+
+    }
+</ul>
